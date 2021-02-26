@@ -1,0 +1,56 @@
+.container {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top:6% ;
+    font-family: "Lato-Regular";
+    max-width: 50%;
+    background-color: #EBEBEB;
+    box-sizing: border-box;
+
+}
+.card {
+    font-family: "Lato-Regular";
+    width: 30%;
+    padding: 5px;
+    margin: 6px;
+    background-color: white;
+    text-align: center;
+    
+
+}
+img {
+   max-width: 200px;
+   min-width: auto;
+}
+@font-face {
+    font-family: "Lato-Regular";
+    src: url(fonts/Lato-Regular.ttf) format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+.price h3 {
+    font-size: 12px;
+    margin: 0 0 10px 0;
+}
+.price {
+    display: block;
+}
+.card:hover .price {
+    display: none
+}
+.buttom {
+    display: none;
+    text-decoration: none;
+    background-color: rgb(1, 255, 1);
+    padding: 30px;
+}
+a {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+.card:hover .buttom {
+    display: block;
+  
+}

@@ -1,0 +1,261 @@
+body {
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  nav {
+    background-color: #fff;
+    font-family: "Roboto", sans-serif;
+  }
+  nav .adaptiv {
+    display: none;
+  }
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin-left: 15%;
+  }
+  nav ul li {
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-right: 2%;
+    border-right: 2px solid #000;
+  }
+  nav ul li a {
+    color: #000;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 10px/10px;
+  }
+  nav ul li a:hover {
+    color: #fff;
+    background-color: #000;
+    transition: 0.5s;
+  }
+  nav #id5 {
+    border: none;
+  }
+  nav .social {
+    display: flex;
+    margin: 0;
+    width: 0%;
+    margin-left: 86%;
+    margin-top: -36px;
+  }
+  nav .social img {
+    width: 30px;
+    height: 30px;
+    background-color: #f00;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  nav .social a {
+    margin: 13%;
+  }
+}
+@media screen and (max-width: 768px) {
+  nav {
+    background-color: #fff;
+    font-family: "Roboto", sans-serif;
+    padding-bottom: 20px;
+  }
+  nav ul {
+    position: relative;
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin-left: 10px;
+    text-align: center;
+    background-color: #000;
+    margin-right: 64%;
+    border-radius: 15px/15px;
+    padding-inline-start: 0px;
+  }
+  nav ul li {
+    margin-left: -10px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+  }
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  nav .adaptiv-menu {
+    display: none;
+  }
+  nav .adaptiv img {
+    width: 40px;
+    margin: 7px;
+    margin-bottom: 0;
+  }
+  nav .adaptiv p {
+    color: #000;
+    margin: 0;
+    margin-left: 7px;
+    font-family: "Roboto", sans-serif;
+  }
+  nav .adaptiv:hover ~ .adaptiv-menu {
+    display: block;
+  }
+  nav .social {
+    display: flex;
+    margin: 0;
+    width: 0%;
+    margin-left: 80%;
+    margin-top: -36px;
+  }
+  nav .social img {
+    width: 20px;
+    height: 20px;
+    background-color: #f00;
+    border-radius: 50%;
+    margin-left: 5px;
+  }
+  nav .social a {
+    margin: 13%;
+  }
+}
+@media screen and (max-width: 380px) {
+  .social img {
+    display: none;
+  }
+
+  nav {
+    padding-bottom: 44px;
+  }
+}
+body {
+  background-image: url(bgimages/doma-cherno-belaya-vysota-968d9cf.jpg);
+}
+
+.logo {
+  background-color: black;
+  color: #fff;
+  display: flex;
+  font-family: "Piazzolla", serif;
+  padding-left: 6%;
+}
+.logo h1 {
+  margin-left: 77px;
+}
+.logo img {
+  width: 110px;
+  height: 140%;
+  margin-top: -30px;
+  margin-bottom: -20px;
+  background-color: #f00;
+  padding: 10px;
+  border-radius: 10px/10px;
+}
+
+.footer-container {
+  text-align: center;
+  margin-top: 267px;
+  margin-bottom: 0px;
+  background: white;
+}
+.footer-container p {
+  border-top: 1px solid #a8a8a8;
+  padding-top: 15px;
+  color: #6b6b6b;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+}
+
+.container {
+  margin-right: 300px;
+  margin-left: 300px;
+}
+.container h2 {
+  text-align: center;
+  background-color: #c9c7c7;
+  padding: 20px;
+  border-radius: 15px/15px;
+  font-family: "Piazzolla", serif;
+  font-size: 30px;
+}
+.container .flex-cont {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  justify-content: space-between;
+}
+.container .flex-cont .first {
+  background-color: #c9c7c7;
+  text-align: center;
+  padding: 50px;
+  margin-right: 40px;
+  border-radius: 15px/15px;
+}
+.container .flex-cont .first a {
+  text-decoration: none;
+  color: #000;
+  font-size: 25px;
+}
+.container .flex-cont .first h3 {
+  margin-top: 0;
+  font-size: 23px;
+  margin-bottom: 35px;
+}
+.container .flex-cont .first p {
+  margin-top: 50px;
+}
+.container .flex-cont .first p span {
+  color: #f00;
+}
+.container .flex-cont .second {
+  background-color: #c9c7c7;
+  display: flex;
+  border-radius: 15px/15px;
+}
+.container .flex-cont .second h3 {
+  text-align: center;
+  font-size: 23px;
+}
+.container .flex-cont .second a {
+  text-decoration: none;
+  color: red;
+}
+.container .flex-cont .second p {
+  font-size: 12px;
+  color: #5c5b5b;
+  margin-left: 25px;
+  margin-top: 0;
+}
+.container .flex-cont .second input {
+  border-radius: 5px/5px;
+  border: none;
+  height: 20px;
+}
+.container .flex-cont .second input[id=email1] {
+  margin-top: 5px;
+  width: 50%;
+  margin-bottom: 5px;
+  margin-left: 27px;
+}
+.container .flex-cont .second input[id=submit] {
+  height: 25px;
+  width: 30%;
+  margin: 30px;
+  background-color: #f00;
+  color: #fff;
+  font-size: 20px;
+}
+.container .flex-cont .second textarea {
+  margin: 10px;
+  width: 70%;
+  max-height: 100px;
+  resize: none;
+  margin-left: 25px;
+  border-radius: 5px/5px;
+}
+.container .flex-cont .second label {
+  margin-left: 27px;
+}

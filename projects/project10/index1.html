@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+ <div class="container">
+    <div class="login">
+        <div class="group">
+            <h1>Login</h1>
+        </div>
+        <form action="index1.html">
+        
+            <div class="group">
+                <label for="log">Email Address or Screen Name</label>
+                <input type="text" id="log">
+            </div>
+            <div class="group">
+                <label for="pass">Password</label>
+                <br>
+                <input type="password" id="pass">
+            </div>
+            <div class="group">
+                <input type="submit" value="Login">
+            </div>
+            <div class="group">
+                <label for="forg">Forgotten Your Login Details?</label>
+                <input type="email" id="forg" placeholder="Enter Email Address">
+            </div>
+            <div class="group">
+                <input type="submit" id="forg" value="Resend Password">
+            </div>
+            <a href="#join"><input type="submit" value="REGISTER"></a>
+            <p>Пытался сделать открытие регистрации по ссылке, не вышло(</p>
+        </form>
+    </div>
+    <a name="join"><div class="join"></a>
+        <form action="index1.html" id="register">
+            <div class="group1">
+                <h1>Join Us</h1>
+            </div>
+            <div class="group1">
+                <label for="sname">Screen Name (min .5 chars)</label>
+                <input type="text" id="sname">
+            </div>
+            <div class="group1">
+                <label for="pass1">Password (min. 5 chars)</label>
+                <input type="password" id="pass1">
+            </div>
+            <div class="group1">
+                <label for="name">Full Name</label>
+                <input type="text" id="name">
+            </div>
+            <div class="group1">
+                <label for="club">Which club do you support?</label>
+                <input type="text" id="club">
+            </div>
+            <div class="right1">
+                <label for="remail">Valid Email Address</label>
+                <input type="email" id="remail">
+            </div>
+            <div class="right1">
+                <label for="pass2">Retype Password</label>
+                <input type="password" id="pass2">
+            </div>
+            <div class="right1">
+                <label for="old">How old are you?</label>
+                <input type="text" id="old">
+                <input type="radio" name="old" checked id="Male">
+                <label for="Male">Male</label>
+                <input type="radio" name="old" checked id="Female">
+                <label for="Female">Female</label>
+            </div>
+            <div class="right1">
+                <label for="team">Which national team do you support?</label>
+                <input type="text" id="team">
+            </div>
+            <div class="group1 last">
+                <p>in clicking register. I agree to <b>footy</b>tube`s <a href="" target="blank">terms & conditions</a> and <a href="" target="blank">privacy policy</a></p>
+            </div>
+            <div class="group1 last">
+                <input type="submit" id="register" value="Register">
+            </div>
+        </form>
+        <p>Позиционировать не вышло, добился просто хоть какого-то вида, попытки позиционирования закоменчены в коде</p>
+    </div>
+ </div>
+</body>
+</html>

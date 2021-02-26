@@ -1,0 +1,26 @@
+ul>li {
+
+}
+
+]
+
+ol {
+}
+.class1 {
+    list-style: url(images/1.gif);
+}
+.class2 {
+    list-style: url(images/2.gif);
+}
+.class3 {
+    list-style: url(images/3.gif);
+}
+.class4 {
+    list-style: url(images/4.gif);
+}
+.class5 {
+    list-style: url(images/5.gif);
+}
+.container {
+    font-family: 'Comic Sans MS' ;
+}

@@ -1,0 +1,304 @@
+@media screen and (max-width:768px) {
+body {
+    background-color: #9F9FFF;
+    margin: 0;
+}
+.member {
+    display: none;
+}
+.container {
+    margin: 30px;
+    background-color: #fff;
+    border-radius: 5px/5px;
+    position: relative;
+    z-index: 1;
+    font-family: 'Roboto Slab', serif;
+ }
+ span {
+     color: rgb(255, 196, 4);
+     text-decoration: underline  rgb(255, 196, 4);
+     /* bottom: 10px; */
+ }  
+ /* .row>div {
+    
+ } */
+ .row1 {
+     display: flex;
+     max-width: 100%;
+
+ }
+ .row1>div {
+    width: 50%;
+ }
+ .head1 {
+     align-items: flex-end;
+ }
+ .account {
+ }
+ .account h2{
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    background-color: #FFD96F;
+    margin: 0;
+    margin-left: -20px;
+}
+.account h2:before {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 0px;
+    border: 10px red solid;
+    border-color:transparent  rgb(184, 133, 24) rgb(184, 133, 24) transparent;
+    position: absolute;
+    top: -20px;
+    left: 0px;
+}
+.address {
+    border-left: dotted rgb(138, 138, 138) 2px;
+}
+.address h2 {
+    position: relative;
+    padding: 30px;
+    text-align: center;
+    margin: 0;
+    margin-right: -20px;
+    background-color: #B9FF72;
+    border: none;
+}
+.address h2:before {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 0px;
+    border: 10px solid red;
+    border-color: transparent transparent rgb(2, 119, 2) rgb(2, 119, 2);
+    top: -20px;
+    position: absolute;
+    right: 0px;
+}
+.group2 {
+    margin: 20px;
+    color: rgb(111, 243, 106);
+}
+textarea {
+    max-height:250px;
+    resize: vertical;
+    width: 100%;
+}
+textarea::placeholder {
+    color: rgb(111, 243, 106);
+}
+.group1 {
+    color: rgb(255, 153, 0);
+    padding: 10px;
+    margin: 40px;
+}
+}
+input {
+    height: 22px;
+}
+input[type="email"] {
+    width: 100%;
+    /* margin-left: 40px; */
+}
+input[type="password"] {
+    width: 100%;
+    /* margin-left: 18px; */
+}
+input[id="url"] {
+    width: 100%;
+    /* margin-left: 48px; */
+}
+input[name="det1"] {
+    width: 100%;
+    /* margin-left: 83px; */
+}
+input[name="det"] {
+    margin-left: 35px;
+    /* border: 2px solid rgb(52, 56, 253); */
+}
+.payment-container {
+    left: 0;
+    position: absolute;
+    top: 8px;
+}
+.payment-container .payment-slide {
+    background-color: #636FDE;
+    color: #fff;
+    height: 78px;
+    line-height: 48px;
+    margin: -16px 0 0 -180px;
+    position: relative;
+    text-align: center;
+    width: 170px;
+    -moz-transition: margin 1s;
+    -o-transition: margin 1s;
+    -webkit-transition: margin 1s;
+    transition: margin 1s;
+    border-radius: 6px/6px;
+}
+.payment-container .payment-slide:hover {
+    margin-left: 0;
+}
+.payment-container .payment-slide .payment-content {
+    float: left;
+    width: 170px;
+}
+.payment-container .payment-slide .payment-header {
+    float: left;
+    width: 30px;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+    transition: opacity 1s;
+}
+.payment-container .payment-slide:hover .payment-header {
+    opacity: 0;
+}
+.payment-content {
+    display: none;
+    background-color: #636FDE;
+    border-radius: 6px/6px;
+}
+.payment-content h2 {
+    border-bottom: dotted rgb(138, 138, 138) 2px;
+}
+.payment-slide:hover .payment-content {
+display: block;
+}
+.group3 input {
+    display: block;
+    width: 140px;
+    margin: 10px;
+}
+input[name="data"] {
+width: 50px;
+display: inline;
+}
+input[name="data1"] {
+    width: 55px;
+    display: inline;
+    margin: 0px;
+    padding-left: 0px;
+    }
+    input[name="cvs"] {
+        width: 50px;
+        margin-left: 50px;
+    }
+.head1 {
+    display: flex;
+}
+.group3 h3 {
+    border-bottom: dotted rgb(138, 138, 138) 2px;
+}
+.signup {
+    margin: 5px;
+}
+input[type="submit"] {
+    width: 100px;
+    height: 40px;
+    color: #fff;
+    background-color: rgb(19, 253, 19);
+    border: none;
+    border-radius: 6px/6px;
+}
+@media screen and (min-width:768px) {
+    body {
+        background-color: #9F9FFF;
+        margin: 0;
+    }
+    .container {
+        margin: 30px;
+    background-color: #fff;
+    border-radius: 5px/5px;
+    position: relative;
+    z-index: 1;
+    font-family: 'Roboto Slab', serif;
+    }
+    .row {
+        display: flex;
+        width: 900px;
+    }
+    .row1 {
+        display: flex;
+        max-width: none;
+    }
+    .account {
+        width: 100%;
+    }
+    .address {
+        width: 100%;
+    }
+    .account h2{
+        padding: 30px;
+        text-align: center;
+        position: relative;
+        background-color: #FFD96F;
+        margin: 0;
+        margin-left: -20px;
+    }
+    .account h2:before {
+        content: '';
+        display: block;
+        width: 0px;
+        height: 0px;
+        border: 10px red solid;
+        border-color:transparent  rgb(184, 133, 24) rgb(184, 133, 24) transparent;
+        position: absolute;
+        top: -20px;
+        left: 0px;
+    }
+    .address h2 {
+        position: relative;
+        padding: 30px;
+        text-align: center;
+        margin: 0;
+        margin-right: 0;
+        background-color: #B9FF72;
+        border: none;
+    }
+    .payment-container .payment-slide {
+        background-color: #636FDE;
+        color: #fff;
+        height: 78px;
+        line-height: 48px;
+        margin: 0 0 0 0;
+        position: relative;
+        text-align: center;
+        border-radius: 0px/0px;
+    }
+    .payment-container .payment-slide:hover {
+    margin: 0;
+    }
+    .payment-container {
+        /* display: flex;  */
+        position: relative;
+    }
+    .payment-container .payment-slide .payment-content {
+        float: none;
+        width: 300px;
+    }
+    .payment-container .payment-slide .payment-header {
+        /* float: left; */
+        width: 100px;
+        -moz-transition: none;
+        -o-transition: none;
+        -webkit-transition: none;
+        transition: none;
+    }
+    .payment-container .payment-slide:hover .payment-header {
+        opacity: none;
+    }
+    .payment-content {
+        display: block;
+        background-color: #636FDE;
+        border-radius: 0px/0px;
+    }
+    .payment-content h2 {
+        margin: 0;
+    }
+
+
+    
+}

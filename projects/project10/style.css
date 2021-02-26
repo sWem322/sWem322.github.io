@@ -1,0 +1,134 @@
+.container {
+background: #009cf7 url(images/1.png) repeat-x 0 62% fixed ;
+display: flex;
+max-width: 100%;
+max-height: 100%;
+width: 1200px;
+height: 600px;
+margin: 5px;
+font-family: 'Roboto', sans-serif;
+color: #fff;
+}
+.login {
+height:80%;
+width: 50%;
+border-radius: 14px/14px;
+background-color: rgb(85, 187, 255);
+}
+.join {
+    width: 100%;
+    height: 100%;
+    /* -webkit-column-count:2;  
+    -moz-column-count:2;  
+    column-count:2; */
+}
+.group {
+    margin: 20px;
+}
+input {
+    height: 23px;
+    border-radius: 20px/20px;
+    border: none;
+}
+input[id="pass"] {
+width: 130px;
+margin-top: 8px;
+}
+input[id="log"] {
+    width: 200px;
+    margin-top: 7px;
+}
+input[type="email"][id="forg"] {
+    width: 200px;
+    margin-top: 7px;
+}
+input[type="submit"][id="forg"] {
+    height: 30px;
+    width: 140px;
+    border-radius: 5px/5px;
+    color: #fff;
+    background-color: rgb(3, 85, 179);
+    font-size: 15px;
+}
+input:focus {
+    border: 1px solid #fff;
+
+}
+input[type="submit"][value="Login"] {
+    height: 35px;
+    width: 85px;
+    color: #fff;
+    background-color: rgb(3, 85, 179);
+    border-radius: 5px/5px;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.group1 {
+    width: 100%;
+    /* width: 30%; */
+    height: 100%;
+    margin: 10px;
+    /* float: left; */
+}
+/* input[id="remail"] {
+    float: right;
+    margin-right: 50px; */
+/* } */
+.right1 {
+    /* float: right; */
+    /* width: 30%; */
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+}
+h1 {
+    margin: 0;
+}
+input[type="submit"][value="Register"] {
+    height: 30px;
+    width: 140px;
+    border-radius: 5px/5px;
+    color: #fff;
+    background-color: rgb(3, 85, 179);
+    font-size: 15px;
+}
+@media screen and (max-width:890px) {
+    .container {
+        background: rgb(85, 187, 255);
+    }
+    .login {
+    max-width: 100%;
+    align-items: center;
+
+    }
+    .join {
+        display: none;
+    }
+    input[value="REGISTER"] {
+        height: 30px;
+    width: 140px;
+    border-radius: 5px/5px;
+    color: #fff;
+    background-color: rgb(3, 85, 179);
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+    
+    }
+    /* input[value="REGISTER"]:hover .join {
+        display: block;
+    } */
+    a:hover {
+        display: block;
+    }
+        
+    
+    
+}
+
+
+
+
+
+
+

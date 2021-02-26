@@ -1,0 +1,31 @@
+.container {
+    max-width: 1000px;
+    flex-wrap: wrap;
+    margin-right: 20%;
+    margin-left: 20%;
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+p {
+    font-weight: 700;
+}
+img {
+    width: 70px;
+}
+.main-block {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.block {
+    padding: 25px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    margin: 30px;
+    text-align: center;
+}
